@@ -3,18 +3,32 @@
 
 (def invoice (clojure.edn/read-string (slurp "invoice.edn")))
 
-(defn satisfies-conditions? [invoice]
-  (let [iva-19%? (some #(= (:tax/category %) :iva :tax/rate 19) (:taxable/taxes invoice))
-        ret-fuente-1%? (some #(= (:retention/category %) :ret_fuente :retention/rate 1) (:retentionable/retentions invoice))]
-    (and (or iva-19%? ret-fuente-1%?)     ; Must have at least one condition
-         (not (and iva-19%? ret-fuente-1%?)) ; Cannot have both conditions
-         (every? (complement nil?) [iva-19%? ret-fuente-1%?])))) ; Every item must satisfy exactly one condition
+(defn xor [a b]
+  (or (and a (not b))
+      (and b (not a))))
 
-(def invoices-satisfying-conditions
-  (->> (:invoice/items invoice)
-       (group-by :invoice-item/id)
-       (vals)
-       (filter satisfies-conditions?)
-       (map :invoice-item/id)))
+(defn has-iva-19% [item]
+  (some (fn [tax]
+          (and (= (:tax/category tax) :iva)
+               (= (:tax/rate tax) 19)))
+        (:taxable/taxes item)))
 
-(prn invoices-satisfying-conditions)
+(defn has-ret-fuente-1% [item]
+  (some (fn [retention]
+          (and (= (:retention/category retention) :ret_fuente)
+               (= (:retention/rate retention) 1)))
+        (:retentionable/retentions item)))
+
+(defn filter-items-satisfying-conditions [invoice]
+  (->> invoice
+       :invoice/items
+       (filter (fn [item]
+                 (let [has-iva-19% (has-iva-19% item)
+                       has-ret-fuente-1% (has-ret-fuente-1% item)]
+                   (xor has-iva-19% has-ret-fuente-1%))))))
+
+
+(def filtered-items (filter-items-satisfying-conditions invoice))
+
+;; Print the filtered items using prn
+(prn filtered-items)
