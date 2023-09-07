@@ -1,6 +1,6 @@
 (ns problem2
-  (:require [clojure.spec.alpha :as s]
-            [cheshire.core :as json]
+  (:require [cheshire.core :as json]
+            [clojure.spec.alpha :as s]
             ))
 
 

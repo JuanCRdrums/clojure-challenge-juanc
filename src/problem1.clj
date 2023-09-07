@@ -1,5 +1,5 @@
 (ns problem1
-  (:require [clojure.edn :as edn]))
+  (:require [clojure.edn]))
 
 (def invoice (clojure.edn/read-string (slurp "invoice.edn")))
 
