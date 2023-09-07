@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cd67f34-cfba-463b-bb48-5ce1618cb9ac" name="Changes" comment="Add problem 2 solution">
+      <change afterPath="$PROJECT_DIR$/.cpcache/4487F368D5664AB1371FDA8B217008ED.basis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cpcache/4487F368D5664AB1371FDA8B217008ED.cp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cpcache/6D32EDD22D4C766AEC99E0914C458C59.basis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cpcache/6D32EDD22D4C766AEC99E0914C458C59.cp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nrepl-port" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/invoice_item.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem3.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cpcache/2DE331D995EA6E3BE468F75AFDF6D3EF.basis" beforeDir="false" afterPath="$PROJECT_DIR$/.cpcache/2DE331D995EA6E3BE468F75AFDF6D3EF.basis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cpcache/2DE331D995EA6E3BE468F75AFDF6D3EF.cp" beforeDir="false" afterPath="$PROJECT_DIR$/.cpcache/2DE331D995EA6E3BE468F75AFDF6D3EF.cp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cpcache/D32B8406150E121DF50ADBBA4621D769.basis" beforeDir="false" afterPath="$PROJECT_DIR$/.cpcache/D32B8406150E121DF50ADBBA4621D769.basis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cpcache/D32B8406150E121DF50ADBBA4621D769.cp" beforeDir="false" afterPath="$PROJECT_DIR$/.cpcache/D32B8406150E121DF50ADBBA4621D769.cp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Deps__org_clojure_clojure_1_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Deps__org_clojure_core_specs_alpha_0_2_62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Deps__org_clojure_spec_alpha_0_3_218.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clojure-challenge-juanc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojure-challenge-juanc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps.edn" beforeDir="false" afterPath="$PROJECT_DIR$/deps.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem1.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem1.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2.clj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DepsProjectDetails">
+    <option name="cachedModuleDetails">
+      <map>
+        <entry key="$PROJECT_DIR$/deps.edn">
+          <value>
+            <ModuleDetails>
+              <option name="details" value="{:default {:resolve-exception &quot;Could not find artifact org.clojure:test:jar:1.11.1 in central (https://repo1.maven.org/maven2/)&quot;}}" />
+              <option name="hash" value="3ac31671817213951e3ebdf2fcd6300f" />
+            </ModuleDetails>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JuanCRdrums&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="53b06ae4-f070-4e4f-a598-66f0ee915572" />
+        <option name="url" value="https://github.com/JuanCRdrums/clojure-challenge-juanc.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2UzXwwj4Mql9T58i6TnOwvwsYD9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cursive.last.file.extension.C\\:/Users/JuanRojas/Documents/clojure-challenge-juanc/src": "clj",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/JuanRojas/Documents/clojure-challenge-juanc/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Clojure.Compiler",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JuanRojas\Documents\clojure-challenge-juanc\test" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1694077645382">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="REPL for clojure-challenge-juanc" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <option name="configVersion" value="1" />
+      <option name="displayName" value="REPL for clojure-challenge-juanc" />
+      <option name="execution" value="DEPS" />
+      <module name="clojure-challenge-juanc" />
+      <option name="options" />
+      <option name="profiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="options" />
+      <option name="profiles" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run tests in problem3 (2)" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <option name="execution" value="DEPS" />
+      <module name="clojure-challenge-juanc" />
+      <option name="namespace" value="problem3" />
+      <option name="options" />
+      <option name="profiles" />
+      <option name="selector" value="SINGLE_NS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run tests in problem3" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <option name="execution" value="DEPS" />
+      <module name="clojure-challenge-juanc" />
+      <option name="namespace" value="problem3" />
+      <option name="options" />
+      <option name="profiles" />
+      <option name="selector" value="SINGLE_NS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test problem3/anywhere" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="clojure-challenge-juanc" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="problem3/anywhere" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test problem3/test-subtotal" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <option name="execution" value="DEPS" />
+      <module name="clojure-challenge-juanc" />
+      <option name="options" />
+      <option name="profiles" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="problem3/test-subtotal" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage" sample_coverage="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="clojure.test.Run tests in problem3" />
+      <item itemvalue="clojure.test.Run tests in problem3 (2)" />
+      <item itemvalue="clojure.test.Test problem3/anywhere" />
+      <item itemvalue="clojure.test.Test problem3/test-subtotal" />
+      <item itemvalue="Clojure REPL.REPL for clojure-challenge-juanc" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="clojure.test.Test problem3/test-subtotal" />
+        <item itemvalue="clojure.test.Run tests in problem3" />
+        <item itemvalue="Clojure REPL.REPL for clojure-challenge-juanc" />
+        <item itemvalue="clojure.test.Test problem3/anywhere" />
+        <item itemvalue="clojure.test.Run tests in problem3 (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cd67f34-cfba-463b-bb48-5ce1618cb9ac" name="Changes" comment="" />
+      <created>1693943629446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693943629446</updated>
+      <workItem from="1693943630484" duration="22419000" />
+      <workItem from="1694062334389" duration="9710000" />
+      <workItem from="1694073374707" duration="4259000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add problem 1 solution">
+      <option name="closed" value="true" />
+      <created>1693969501499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693969501499</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add problem 2 solution">
+      <option name="closed" value="true" />
+      <created>1694068353405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694068353405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add problem 1 solution" />
+    <MESSAGE value="Add problem 2 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add problem 2 solution" />
+  </component>
+</project>
